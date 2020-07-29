@@ -1,0 +1,11 @@
+body {
+    background-color: linen;
+}
+header {
+    text-align: center;
+}
+header ul {
+    list-style-type: none;
+    padding-left: 0%;
+    display: inline-block;
+}
