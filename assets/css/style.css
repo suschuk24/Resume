@@ -1,11 +1,81 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+    body {
     background-color: linen;
 }
 header {
     text-align: center;
+    margin: 35px;
+    padding: 35px;
 }
 header ul {
     list-style-type: none;
-    padding-left: 0%;
-    display: inline-block;
+}
+header nav ul li {
+    display: inline;
+    max-height: fit-content;
+    min-width: 100%;
+    padding: 15%;
+}
+.objective {
+    text-align: center;
+    line-height: 1.7;
+}
+.objective h2 {
+    border-bottom: gold solid 3px;
+    margin:0 45%;
+    background: slategray;
+    color: linen;
+}
+h2 {
+   border-bottom: gold solid 3px;
+   margin:0 40%;
+   color:white;
+   background: slategray;
+   text-align: center;
+}
+.experience {
+    float: right;
+    min-width: 70%;
+}
+.experience ul {
+    text-align: left;
+    list-style: none;
+}
+.experience ul li{
+    background: white;
+    margin-right: 50px;
+}
+.experience h3 {
+    margin: 20px 60px;
+}
+.experience p {
+    font-style: italic;
+    line-height: 1.7;
+}
+.communication {
+    float: right;
+    line-height: 1.7;
+    min-width: 70%;
+    margin: 50px;
+}
+.communication p{
+    float: right;
+    max-width: 70%;
+    background: white;
+}
+.leadership {
+    float: right;
+    line-height: 1.7;
+    min-width: 70%;
+}
+.leadership p {
+    list-style: none;
+    background: white;
+    margin: 50px;
+    min-width: 70%;
 }
