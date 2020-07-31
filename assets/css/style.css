@@ -21,8 +21,6 @@ header {
     font-style: bold;
     font-size: 1.3em;
 }
-header nav ul li {
-}
 .text-left {
     text-align: left;
 }
@@ -51,7 +49,6 @@ h2 {
     float: none;
     background:gray;
     margin: 100px 50px 200px;
-    padding-top:  
 }
 .main-block {
     overflow: auto;
