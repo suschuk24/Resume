@@ -43,35 +43,37 @@ h2 {
    color: white;
    font-size: 34px;
    text-align: left;
+   text-size-adjust: auto;
 }
 .side-block {
     overflow: auto;
     float: none;
     background:gray;
-    margin: 100px 50px 200px;
+    margin: 100px 50px 180px 50px;
+    max-width: 30%;
 }
 .main-block {
     overflow: auto;
     background: slategray;
     margin: 50px;
+    max-width: 68%;
 }
 footer {
-    margin: 500px 50px;
+    margin: 100px 50px;
     padding: 40px;
     font-style: bold;
     font-size: 1.3em;
 }
 footer ul {
-    display:inline-block;
     margin: 50px;
     padding: 0 50px;
 }
 footer ul li {
-    display: inline-block;
     text-align: center;
-    margin: 0 160px;
+    margin: 30px;
 }
 footer ul li a {
     text-decoration: none;
     text-align: center;
+    font-weight: bolder;
 }
